@@ -1,8 +1,14 @@
 {
-  "dependencies": {
-    "d3": "^7.6.1",
-    "express": "^4.18.2",
-    "express-handlebars": "^6.0.6",
-    "nodemon": "^2.0.20"
+  "name": "d3js-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^3.2.0"
   }
 }
